@@ -1,0 +1,5 @@
+[BetterlycisFor-mobile] 로컬·Spotify 플레이리스트 불러오기와 재생 구현
+[BetterlycisFor-mobile] Spotify 로그인 리디렉션 수정 및 0.7.1·0.8.0 릴리스
+[BetterlycisFor-mobile] 음악 폴더·앨범·아티스트 탐색과 재생목록 편집·내보내기 추가
+[BetterlycisFor-mobile] Kugou 가사, 가사 카드 및 기기 내 청취 기록 추가
+[BetterlycisFor-mobile] 유리형 재생바와 자동 숨김 적용, 설명 문서 정리 및 0.9.1 릴리스
