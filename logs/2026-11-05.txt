@@ -2,3 +2,4 @@
 [PyNext] 정적 페이지 생성과 Rust 정적 응답 경로 구현
 [PyNext] 공개 정적 파일 빌드 및 서버 제공 기능 구현
 [PyNext] 공개 페이지 ISR 캐시와 동시 재생성 제어 구현
+[PyNext] JavaScript islands 번들 및 브라우저 실행 기능 구현
