@@ -3,3 +3,4 @@
 [PyNext] 공개 정적 파일 빌드 및 서버 제공 기능 구현
 [PyNext] 공개 페이지 ISR 캐시와 동시 재생성 제어 구현
 [PyNext] JavaScript islands 번들 및 브라우저 실행 기능 구현
+[PyNext] 서버 렌더링 island hydration 및 불일치 복구 구현
