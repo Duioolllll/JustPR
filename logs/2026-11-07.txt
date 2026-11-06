@@ -1,0 +1,4 @@
+[PyNext] 벤치마크 성공·실패 처리량과 서버 CPU 측정 개선
+[PyNext] 운영체제별 CI 및 브라우저·패키지 검증 추가
+[PyNext] Windows 모듈 경로와 esbuild 실행 호환성 개선
+[PyNext] v0.5.0 실험판 릴리스
