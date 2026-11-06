@@ -2,3 +2,8 @@
 [PyNext] 운영체제별 CI 및 브라우저·패키지 검증 추가
 [PyNext] Windows 모듈 경로와 esbuild 실행 호환성 개선
 [PyNext] v0.5.0 실험판 릴리스
+[PyNext] 요청 본문 수신 제한 및 정적·ISR 경로 분리
+[PyNext] 앱별 상대 import 지원과 ISR 정책 검증 강화
+[PyNext] CSP·ASGI·CLI 회귀 테스트 및 4개 언어 설명서 갱신
+[PyNext] 대체 PR 브랜치 충돌 해결과 테스트
+[PyNext] v0.6.0a1 실험판 릴리스와 이전 버전 제한 안내
