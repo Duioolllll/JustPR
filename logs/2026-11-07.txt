@@ -7,3 +7,7 @@
 [PyNext] CSP·ASGI·CLI 회귀 테스트 및 4개 언어 설명서 갱신
 [PyNext] 대체 PR 브랜치 충돌 해결과 테스트
 [PyNext] v0.6.0a1 실험판 릴리스와 이전 버전 제한 안내
+[PyNext] ASGI·Axum 응답 스트리밍과 연결 해제 취소 구현
+[PyNext] 정적 파일 조건부 요청과 바이트 범위 응답 구현
+[PyNext] 프로세스별 ISR 무효화 및 재생성 경합 보호 구현
+[PyNext] 4개 언어 설명서 갱신과 운영체제별 자동 검증
