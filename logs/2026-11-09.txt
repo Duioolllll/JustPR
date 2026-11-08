@@ -1,0 +1,3 @@
+[PyNext] PR #12 머지됨 (main 926a9bf; P0 보안 웨이브 A1-A6, B1, B4, B6, C1, C7, D1, E1, E8; CI 37/37 초록)
+[PyNext] Round-5 6건(Multipart, 전역 미들웨어, 개발용 오류 페이지, 프로젝트 생성 CLI, Standalone Build, Redis 분산 캐시)은 Codex PR #8(00eb6ae, 2026-11-08)에서 이미 구현됨 — 테스트 포함, CI 초록. 별도 이관 없음.
+[PyNext] 남은 구현 후보: DB 통합(설계부터 필요), Django 통합(방향 미결) — 사용자 결정 대기. 소규모 후속: #48 embed 결정, FEATURES.md 생성기 확장(/healthz·/readyz·max_waiting·연결 제한·shutdown_timeout), ADR-0001 vs PR #11 A5 모순 정리.
