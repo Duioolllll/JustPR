@@ -71,3 +71,4 @@
 [GwgCommunity][Muse Agent] 이식 트랙 (e) Clubs 완료: 목록·상세·지원·모집, 테스트 16개 통과, 모집 PATCH body id 확인
 [GwgCommunity][Muse Agent] 이식 트랙 (d) Market 완료: 목록·상세·작성·예약·상태, 테스트 26개 통과, 이미지 업로드 대기(트랙 c)
 [GwgCommunity][Muse Agent] 이식 트랙 (f) Finder 완료: 목록·상세·작성·매칭·검토 토큰, 테스트 24개 통과, 이미지 업로드 대기(트랙 c)
+[GwgCommunity][Muse Agent] 이식 트랙 (b) 인증 완료: 가입·로그인·초대·메일 폴백, 테스트 31개 통과, 5개 기능 트랙 전부 완료
