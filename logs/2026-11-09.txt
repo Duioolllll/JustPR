@@ -66,3 +66,4 @@
 [PyNext][Muse Agent] 리뷰 #7 완료: main acffbbf2(0.1.1) — 치명 0, 중요 1(super().is_exempt() 위임 시 %3F 면제 우회, 재현 확인), 참고 5; M1 PARTIAL·M2~M5 VERIFIED, N1~N10·N12·N13 FIXED·N11 PARTIAL, 릴리즈 일관성 확인(pyproject 0.1.1 = v0.1.1 → acffbbf2)
 [GwgCommunity][Muse Agent] 이식 트랙 (h) UI 셸 완료: CSS·레이아웃·h() 컴포넌트 14개·island 7개, API 계약 고정
 [GwgCommunity][Muse Agent] 이식 트랙 (a) DB 스키마 완료: PyNext 앱 스캐폴드 + SQLAlchemy 모델 18테이블 + Alembic 초기 마이그레이션
+[GwgCommunity][Muse Agent] 이식 UI 셸 통합 완료(main cadc2af, island 루트 위치 정정) + 기능 트랙 5개 착수: 인증·Market·Clubs·Finder·Admin
