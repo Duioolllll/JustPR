@@ -67,3 +67,4 @@
 [GwgCommunity][Muse Agent] 이식 트랙 (h) UI 셸 완료: CSS·레이아웃·h() 컴포넌트 14개·island 7개, API 계약 고정
 [GwgCommunity][Muse Agent] 이식 트랙 (a) DB 스키마 완료: PyNext 앱 스캐폴드 + SQLAlchemy 모델 18테이블 + Alembic 초기 마이그레이션
 [GwgCommunity][Muse Agent] 이식 UI 셸 통합 완료(main cadc2af, island 루트 위치 정정) + 기능 트랙 5개 착수: 인증·Market·Clubs·Finder·Admin
+[GwgCommunity][Muse Agent] 이식 트랙 (g) Admin 완료: /admin·신고·검토·초대·동아리 생성, 테스트 18개 통과, build 15라우트
