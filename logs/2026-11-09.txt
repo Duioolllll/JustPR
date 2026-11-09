@@ -69,3 +69,4 @@
 [GwgCommunity][Muse Agent] 이식 UI 셸 통합 완료(main cadc2af, island 루트 위치 정정) + 기능 트랙 5개 착수: 인증·Market·Clubs·Finder·Admin
 [GwgCommunity][Muse Agent] 이식 트랙 (g) Admin 완료: /admin·신고·검토·초대·동아리 생성, 테스트 18개 통과, build 15라우트
 [GwgCommunity][Muse Agent] 이식 트랙 (e) Clubs 완료: 목록·상세·지원·모집, 테스트 16개 통과, 모집 PATCH body id 확인
+[GwgCommunity][Muse Agent] 이식 트랙 (d) Market 완료: 목록·상세·작성·예약·상태, 테스트 26개 통과, 이미지 업로드 대기(트랙 c)
