@@ -4,3 +4,5 @@
 [PyNext] 다음 구현 트랙 Codex에 이관 (Muse 결정, 2026-11-09) — 1순위 DB 통합: ORM 우선, SQLAlchemy 1순위, resources 시스템(request.resources/RESOURCES)에 DB 풀·세션 연결, SQLite 기본 + PostgreSQL(asyncpg), 마이그레이션 Alembic 가이드. 설계부터 → 구현 → 테스트 → PR (머지는 사용자 승인). 기준 main 926a9bf.
 [PyNext] Django 통합은 DB 통합 이후로 보류 — 방향: Django ORM·폼 사용만, ASGI 서브앱 마운트와 Django 템플릿은 안 함.
 [PyNext] 소규모 후속 Codex에 함께 이관: #48 embed 정리(void 목록에서 제거, 차단은 유지 — 동작 변화 없음), FEATURES.md 생성기 확장(/healthz·/readyz·max_waiting·연결 제한·shutdown_timeout), ADR-0001 vs PR #11 A5 모순 정리(ADR-0001 결정을 따르도록 A5 행 문구 수정).
+[PyNext] 리뷰 #4 지적 22건 Codex에 이관 (사용자 결정, 2026-11-09) — 기준 main 4142f57 (PR #13 머지됨). 치명: WebSocket이 전역 미들웨어·@require_auth 완전 우회 (app.py __call__이 WS를 _handle_websocket으로 직행, check_authorization 미호출; 네이티브는 Rust가 핸드셰이크를 먼저 완료해 뒤늦은 거부 불가; 실증 완료).
+[PyNext] 리뷰 #4 중요 6건 Codex에 함께 이관: WS 핸드셰이크 Origin 검증 없음(치명과 함께 수정), 레이트리미터 축출 키 429 거부(문서 보장 위반), standalone 빌드 실패 시 반쪽 번들 잔존·재시도 차단, CLI 개수 플래그 상한 없음(OverflowError), build가 app/ 하위 심볼릭 링크 디렉터리 무시, optimize_image width=0 ZeroDivisionError. 참고 15건 포함. 상세: review-dashboard-data.md 검토 #4 섹션. 수정은 브랜치 + PR로, 머지는 사용자 승인.
