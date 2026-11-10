@@ -5,3 +5,8 @@
 [PyNext][Muse Agent] P2 추가 구현: 빌드 모드 분리 f514494, 설정 충돌 에러 b53c9af, FileSystemCache b4fcdb6, 미들웨어 관측성 c913e21, 미들웨어 표준화 7d11c94, 웹소켓 origin e43ef34, basePath 전처리 e82fe8a, ISR 동시 쓰기 병합 76c89fe, prefetch 힌트 ac25ea8, 스트리밍 prelude 672ad39, 요청 인사이트 a2f52d1, 스캐폴드 b108f4b, 라우트 정렬 fe03cfe, ISR tee 3cb29b3, 텔레메트리 5c845a8, 도달 불가 라우트 경고 6e6c815, ISR warmup fff7226, 워커 자동 결정 086875a
 [PyNext][Muse Agent] Phase 3 구현: 빌드 진단 a688893, fetch/데이터 캐시 765145f, 증분 빌드 4b62f5c, 메트릭 fdbc3ff, url_for() 254c558
 [PyNext][Muse Agent] 통합 PR을 Phase 0+1 / Phase 2+3 두 개로 분리해 진행 중
+[PyNext][Muse Agent] 남은 항목: ADR 3건 (미작성)
+[PyNext][Muse Agent] 남은 항목: 컨테이너·SBOM·서명 (D2, D3)
+[PyNext][Muse Agent] 남은 항목: 카오스 테스트 (B3), 야간 성능 회귀 (C5)
+[PyNext][Muse Agent] 남은 항목: 외부 감사 (A8)
+[PyNext][Muse Agent] 남은 항목: 워커 간 CSRF 키 공유 문제
