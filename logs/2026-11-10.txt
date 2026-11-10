@@ -1,3 +1,7 @@
-[PyNext][Muse Agent] Next.js 분석 Phase 0 구현 완료 (3/3: .env 로딩, 라우트 검증, config 로더)
-[PyNext][Muse Agent] Next.js 분석 Phase 1·2·3 + P1/P2 구현 완료 (약 67개 항목, 로컬 커밋만)
+[PyNext][Muse Agent] Next.js 분석 Phase 0 구현 완료 (3/3: .env 로딩 b80c31f, 라우트 검증 4171c37, config 로더 435d509)
+[PyNext][Muse Agent] Phase 1 구현: ISR 캐시 수명 3축 4da976e, 동적 접근 추적 6e02172, 에러 다이제스트 cdaa265, 파라미터 디코딩 2단계 7d06f38, 세그먼트 설정 상속 74a298f, 태그 무효화 bfa3818
+[PyNext][Muse Agent] P1 추가 구현: 빌드 락 0b58b98, catch-all 정규화 2315e57, 개발 에러 페이지 188a2bb, fetch 캐시 키 20fa2c5, 내부 헤더 제거 2460db7, LRU O(1) 733be05, 최소 수명 하한 6e0b8f4, 미들웨어 스코프 afed592, on-demand 재검증 b40a349, 경로별 응답 헤더 3383431, 스코프 재검증 125ae69, 런타임 정책 오버라이드 db3bed5, 레이아웃 셸 캐시 9b075ca, SQLite 백엔드 f57cd38, standalone 번들 0c34aef
+[PyNext][Muse Agent] Phase 2 구현: 빌드/배포 ID e075166, CacheHandler fe74fb6, 에러 경계 4e85c06, ISR Cache-Control 13f9fce, 미들웨어 매처 컴파일 92fad0d, prefix/suffix 파라미터 b4fb9d8, SSG fallback 4a35624
+[PyNext][Muse Agent] P2 추가 구현: 빌드 모드 분리 f514494, 설정 충돌 에러 b53c9af, FileSystemCache b4fcdb6, 미들웨어 관측성 c913e21, 미들웨어 표준화 7d11c94, 웹소켓 origin e43ef34, basePath 전처리 e82fe8a, ISR 동시 쓰기 병합 76c89fe, prefetch 힌트 ac25ea8, 스트리밍 prelude 672ad39, 요청 인사이트 a2f52d1, 스캐폴드 b108f4b, 라우트 정렬 fe03cfe, ISR tee 3cb29b3, 텔레메트리 5c845a8, 도달 불가 라우트 경고 6e6c815, ISR warmup fff7226, 워커 자동 결정 086875a
+[PyNext][Muse Agent] Phase 3 구현: 빌드 진단 a688893, fetch/데이터 캐시 765145f, 증분 빌드 4b62f5c, 메트릭 fdbc3ff, url_for() 254c558
 [PyNext][Muse Agent] 통합 PR을 Phase 0+1 / Phase 2+3 두 개로 분리해 진행 중
