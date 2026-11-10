@@ -24,3 +24,9 @@
 [PyNext][Muse Agent] Phase 2+3 검증 완료: Phase 2 코어 245 passed, P2x 18개 496 passed, Phase 3 183 passed (전부 0 failed)
 [PyNext][Muse Agent] FileSystemCache 보안 수정 완료: 캐시 키 충돌 시 타 경로 본문 서빙 수정 (be19b61, 회귀 테스트 3건 추가)
 [PyNext][Muse Agent] Phase 2+3 충돌 사전 점검 완료: 30개 중 29개 충돌 (app.py 핫스팟), 머지 순서 제안
+[PyNext][Muse Agent] PR #22 P1 버그 7건 수정 완료·머지·푸시 (e6b62df): app d707a5f·cache daad57c·cli ab636a8·build 9cefd69 + CI 수정 3건 (typing 858a40d·build f2d5e39·app 3155d09), 전체 테스트 1359 passed 43 skipped, stubtest 0 errors
+[PyNext][Muse Agent] PR #25 생성: "Implement Next.js analysis findings: Phase 2 middleware, build & DX", muse/feature/nextjs-phase2-middleware 76eb14f -> muse/feature/nextjs-phase2-core, 44파일 +6158/−180
+[PyNext][Muse Agent] PR #22 BuildLock PID 수정 머지·푸시 (46e1123): Windows venv redirector가 원인 (Popen PID ≠ 실제 인터프리터 PID), 테스트만 수정 e4bb3cf, test_build_lock 19 passed, CI 재실행 중
+[PyNext][Muse Agent] 동시성 503 근본 원인 분석 완료: Rust 승인 제어(64슬롯+64대기열+1초)가 직접 원인, GIL 직렬화가 진짜 원인, 로컬 재현 CPU 74.2%·slow-sync 90.4% 503, 즉시 해결책 --workers 2 (보고서 pynext-root-cause.md)
+[PyNext][Muse Agent] 파이썬 웹프레임워크 동시성 분석 완료 (전체 코드베이스 클론): FastAPI/Starlette·Django·Litestar·Sanic·Quart/aiohttp·Flask, 보고서 6개, 공통 교훈: 즉시 503 대신 limiter 뒤 대기 + FIFO 큐 + bounded wait
+[PyNext][Muse Agent] 보안 분석 진행 중: PyNext·FastAPI/Starlette·Django·Litestar·Sanic·Quart/aiohttp·Flask 7개 프레임워크, 동시성 보고서 기반, 구현은 보류 (사용자 지시)
