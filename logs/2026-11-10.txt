@@ -17,3 +17,10 @@
 [PyNext][Muse Agent] 브랜치 규칙 변경: Muse 브랜치는 muse/<종류>/<이름> 형식 (hotfix/fix/fetch/feature/docs 등), Codex는 codex/... 사용
 [PyNext][Muse Agent] PR 규칙 추가 (사용자 지정): PR 본문에 Context / Prompt Intent, Generated Scope, Benchmarking / Verification 섹션 포함
 [PyNext][Muse Agent] Phase 2+3 통합 진행 중 (PR 2-4, 30개 항목) — 코디네이터 작업 중
+[PyNext][Muse Agent] PR #23 생성: "Fix flaky SQLite TTL test on slow CI runners", muse/fix/sqlite-ttl-flaky-test -> main, CI 36/36 통과
+[PyNext][Muse Agent] PR #22 CI 실패 원인 조사 완료: 12개 고유 실패의 근본 원인 4개 특정 (BuildLock Windows 버그, Redis insert_fenced 시그니처 불일치, typing PathHeaderRule 스텁 불일치, macOS standalone 스킵 누락)
+[PyNext][Muse Agent] PR #22 P1 버그 7건 수정 진행: app.py 3건 d707a5f·cache.py 2건·cli.py 1건 ab636a8·build.py 1건 9cefd69 (cache.py 진행 중)
+[PyNext][Muse Agent] PR #24 생성: "Implement Next.js analysis findings: Phase 2 core", muse/feature/nextjs-phase2-core -> muse/feature/nextjs-phase0-1, 테스트 1426 passed 41 skipped
+[PyNext][Muse Agent] Phase 2+3 검증 완료: Phase 2 코어 245 passed, P2x 18개 496 passed, Phase 3 183 passed (전부 0 failed)
+[PyNext][Muse Agent] FileSystemCache 보안 수정 완료: 캐시 키 충돌 시 타 경로 본문 서빙 수정 (be19b61, 회귀 테스트 3건 추가)
+[PyNext][Muse Agent] Phase 2+3 충돌 사전 점검 완료: 30개 중 29개 충돌 (app.py 핫스팟), 머지 순서 제안
