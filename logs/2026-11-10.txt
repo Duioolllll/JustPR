@@ -10,3 +10,10 @@
 [PyNext][Muse Agent] 남은 항목: 카오스 테스트 (B3), 야간 성능 회귀 (C5)
 [PyNext][Muse Agent] 남은 항목: 외부 감사 (A8)
 [PyNext][Muse Agent] 남은 항목: 워커 간 CSRF 키 공유 문제
+[PyNext][Muse Agent] PR 1 생성 완료: PR #22 "Implement Next.js analysis findings: Phase 0-1", muse/feature/nextjs-phase0-1 -> main, 83 files +15363/-598, 테스트 1340 passed 42 skipped
+[PyNext][Muse Agent] 버그 5건 수정 완료 (fix/review-cache-bugs c35e54a): datetime 스왑 동시 요청 파괴, revalidate_tag 구내용 채움, fetch 메서드 대소문자, fetch 캐시 키 쿠키, 저위험 4건 — 테스트 1122 passed
+[PyNext][Muse Agent] TTL flaky 테스트 수정 (muse/fix/sqlite-ttl-flaky-test c764c8f): main 1bc892b0 macOS CI 1건 실패 수정, 테스트 통과 확인
+[PyNext][Muse Agent] GitHub 브랜치 정리: 머지된 PR 브랜치 19개 삭제
+[PyNext][Muse Agent] 브랜치 규칙 변경: Muse 브랜치는 muse/<종류>/<이름> 형식 (hotfix/fix/fetch/feature/docs 등), Codex는 codex/... 사용
+[PyNext][Muse Agent] PR 규칙 추가 (사용자 지정): PR 본문에 Context / Prompt Intent, Generated Scope, Benchmarking / Verification 섹션 포함
+[PyNext][Muse Agent] Phase 2+3 통합 진행 중 (PR 2-4, 30개 항목) — 코디네이터 작업 중
