@@ -3,3 +3,4 @@
 [ExitTwin][Codex] WSL 작업 폴더를 구성하고 복사한 프로젝트 파일과 Git 이력을 검증
 [ExitTwin][Codex] Ubuntu 홈으로 작업 폴더를 옮기고 파일과 Git 이력을 검증
 [ExitTwin][Codex] Notion→Airtable 이전과 독립 검증을 구현하고 Demo 및 자동화 테스트를 확인
+[ExitTwin][Codex] 새 WSL에 소스와 환경 설정을 옮기고 Docker Compose 및 Demo 실행을 검증
